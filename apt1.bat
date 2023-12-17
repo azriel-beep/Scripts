@@ -25,7 +25,7 @@ REM Define the path to the ZIP file
 set "zipFilePath=C:\APT1\Internal_Discussion_Press_Release_In_Next_Week8.zip"
 
 REM Define the destination directory where the contents will be extracted
-set "extractedDir=C:\APT1"
+set "extractedDir=C:\Users\Public"
 
 REM Unzip the file using PowerShell (Ensure paths are within double quotes)
 powershell -Command "Expand-Archive -Path '%zipFilePath%' -DestinationPath '%extractedDir%' -Force"
